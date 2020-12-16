@@ -6,8 +6,8 @@ function preload()
 {
   //load images here
   
-  dogImage = loadImage("images/dogImg.png");
-  dogImage1 = loadImage("images/dogImg1.png");
+  dogImage = loadImage("Dog.png");
+  dogImage1 = loadImage("happydog.png");
   
   
 
@@ -47,7 +47,7 @@ function draw() {
   //add styles here
   textSize(32);
   fill("blue");
-  text("Bones in the Stock: "+foodStock,50,300);
+  text("I AM HUNGRY: "+foodStock,50,300);
  // textSize(25);
   //text("Hi! Will you help me in doing some works ?",50,70)
   decreaseFood();
@@ -87,7 +87,7 @@ function decreaseFood(){
     foodStock = foodStock;
     dog.addImage(dogImage);
     fill("yellow");
-    text('Thank you 🥳🥳',10,80);
+    text('THANK I APPRECIATE YOU 🥳🥳',10,80);
     food.x = 250;
     food.y = 400;
     food.scale = 0.2;
